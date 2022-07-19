@@ -1,3 +1,7 @@
+# Result
+
+![code](assets/code.png)
+
 # Install Dependencies
 
 ## i3-gaps
