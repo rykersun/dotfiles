@@ -235,7 +235,8 @@ client.focused #555555 #555555 #ffffff #7D7D7D #7D7D7D
 
 # rofi 按鍵設定
 bindsym $mod+d exec --no-startup-id rofi -show drun
-bindsym $mod+p exec --no-startup-id rofi -show power-menu -modi power-menu:rofi-power-menu
+# bindsym $mod+p exec --no-startup-id rofi -show power-menu -modi power-menu:rofi-power-menu
+bindsym $mod+p exec --no-startup-id  rofi -show power-menu -modi "power-menu:rofi-power-menu --choices=shutdown/reboot"
 bindsym $mod+n exec --no-startup-id rofi -show ssh
 bindsym $mod+w exec --no-startup-id rofi -show window
 bindsym $mod+c exec --no-startup-id rofi -show calc -modi calc -no-show-match -no-sort -no-persist-history
