@@ -49,7 +49,7 @@ git:
     # only applicable to unix users
     manualCommit: false
     # extra args passed to `git merge`, e.g. --no-ff
-    args: ''
+    args: '--no-ff'
   log:
     # one of date-order, author-date-order, topo-order.
     # topo-order makes it easier to read the git log graph, but commits may not
