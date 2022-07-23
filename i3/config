@@ -259,7 +259,7 @@ bindsym $mod+Caps_Lock workspace next
 bindsym $mod+Tab workspace prev
 
 # 更改啟動 Terminal 的按鍵
-bindsym $mod+Return exec kitty -o background_opacity=0.6
+bindsym $mod+Return exec kitty
 
 # 調整音量
 bindsym $mod+F10 exec pactl set-sink-mute @DEFAULT_SINK@ toggle # Mute
