@@ -36,7 +36,7 @@ gui:
   showRandomTip: true
   showBottomLine: true # for hiding the bottom information line (unless it has important information to tell you)
   showCommandLog: true
-  showIcons: true
+  showIcons: false
   commandLogSize: 8
   splitDiff: 'auto' # one of 'auto' | 'always'
 git:
@@ -213,4 +213,3 @@ keybinding:
     init: 'i'
     update: 'u'
     bulkMenu: 'b'
-
