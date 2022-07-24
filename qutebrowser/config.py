@@ -143,8 +143,3 @@ config.set('content.javascript.enabled', True, 'qute://*/*')
 c.zoom.default = '125%'
 config.source('qutebrowser-themes/themes/onedark.py')
 config.set("colors.webpage.darkmode.enabled", True)
-
-# Bindings for normal mode
-config.bind('xb', 'config-cycle statusbar.show always never')
-config.bind('xt', 'config-cycle tabs.show always never')
-config.bind('xx', 'config-cycle statusbar.show always never;; config-cycle tabs.show always never')
