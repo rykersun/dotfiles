@@ -49,7 +49,7 @@ git:
     # only applicable to unix users
     manualCommit: false
     # extra args passed to `git merge`, e.g. --no-ff
-    args: '--no-ff'
+    args: ''
   log:
     # one of date-order, author-date-order, topo-order.
     # topo-order makes it easier to read the git log graph, but commits may not
@@ -83,7 +83,7 @@ reporting: 'undetermined' # one of: 'on' | 'off' | 'undetermined'
 confirmOnQuit: false
 # determines whether hitting 'esc' will quit the application when there is nothing to cancel/close
 quitOnTopLevelReturn: false
-disableStartupPopups: true
+disableStartupPopups: false
 notARepository: 'prompt' # one of: 'prompt' | 'create' | 'skip'
 promptToReturnFromSubprocess: true # display confirmation when subprocess terminates
 keybinding:
